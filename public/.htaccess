@@ -19,7 +19,8 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 	
-	Options +FollowSymLinks
-	RewriteEngine on
-	RewriteRule (.*) https://www.vendeai.com.br/$1 [R=301,L]
 </IfModule>
+
+    Options +FollowSymLinks
+    RewriteEngine on
+    RewriteRule (.*) https://www.vendeai.com.br/$1 [R=301,L]
