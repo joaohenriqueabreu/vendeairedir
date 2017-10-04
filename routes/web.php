@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+        return Redirect::to('https://www.vendeai.com.br', 301); 
 });
